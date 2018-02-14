@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Go</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="container">
+    
+  <div id="app">  
+    <div class="field" v-bind:style="{ width: ((x * 100)/y) + '%' }">
+      <div v-for="(value, index) in div" class="cell" v-bind:style="{ width: (100 / x) + '%', height: (100 / y) + '%' }"> {{ div[index] }} </div>
+    </div>
+  </div><!-- end app -->
+  
+</div><!-- end container -->
+<script src="js/vue.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

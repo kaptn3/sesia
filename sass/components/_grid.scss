@@ -1,0 +1,12 @@
+/* Columns
+   ========================================================================== */
+/*
+ * If need column example width 3 of 12 then create class col-3 max-width 25%  
+ */
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
